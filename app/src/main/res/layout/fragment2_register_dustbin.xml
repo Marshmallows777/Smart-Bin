@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RegisterDustbinFragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+
+        <com.jss.smartdustbin.model.NoDefaultSpinner
+            android:id="@+id/spinner_states"
+            android:layout_marginTop="64dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/edit_text_padding"
+            android:paddingRight="@dimen/edit_text_padding"
+            android:backgroundTint="@android:color/black"
+            android:layout_height="wrap_content"
+            android:prompt="@string/ward_prompt"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@android:color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <com.jss.smartdustbin.model.NoDefaultSpinner
+            android:id="@+id/spinner_cities"
+            android:layout_marginTop="64dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/edit_text_padding"
+            android:paddingRight="@dimen/edit_text_padding"
+            android:backgroundTint="@android:color/black"
+            android:layout_height="wrap_content"
+            android:prompt="@string/city_prompt"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@android:color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="84dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:id="@+id/bt_previous2"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimaryDark"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next"
+                android:id="@+id/bt_next2"
+                android:layout_margin="16dp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimaryDark"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

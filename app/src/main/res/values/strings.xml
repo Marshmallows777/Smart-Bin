@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name" translatable="false">Smart Dustbin</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="ward_prompt">Choose Ward</string>
+    <string name="city_prompt">Choose City</string>
+
+    <string name="msg_token_fmt">Token value %s </string>
+    <string name="no_dustbin_default_tv">Dustbins are not installed in your ward yet !</string>
+    <string name="empty_wards_default_text">Wards are not alloacated to you !</string>
+    <string name="account_text">Account</string>
+    <string name="account_card_text">Find all your account details here.</string>
+    <string name="located_near_text">Located Near:</string>
+    <string name="last_updated_text">Last Updated :</string>
+    <string name="installed_by_text">Installed By:</string>
+    <string name="dustbin_details_note_text">Click on the dustbin marker on the map to  get directions of the dustbin on Google maps.</string>
+    <string name="select_ward_text">Dustbins under your supervision</string>
+    <string name="username_heading">Username</string>
+    <string name="password_heading">Password</string>
+    <string name="login_text">Login</string>
+    <string name="current_location_text">Current Location</string>
+    <string name="confirm_location_bt_text">Confirm Location</string>
+    <string name="scan_qr_instruction_text">Scan the QR code on the dustbin and register the dustbin</string>
+    <string name="scan_qr_bt_text">Scan QR Code</string>
+    <string name="registration_successful_text">Dustbin registered Sucessfully!</string>
+    <string name="registration_success_text">Manage registered bins from the manage section at home.</string>
+    <string name="back_to_home_bt_text">Go Back To Home</string>
+    <string name="bin_heading_text">Bin</string>
+    <string name="landmark_heading_text">Landmark</string>
+    <string name="continue_bt_text">Continue</string>
+    <string name="loading">Loading...</string>
+    <string name="install">Install</string>
+    <string name="install_and_activate_new_bins_in_the_allocated_wards">Install and activate new bins in the allocated wards.</string>
+    <string name="manage">Manage</string>
+    <string name="click_to_monitor_bins_in_the_allocated_wards">Click to monitor bins in the allocated wards.</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="key_choose_language">key_choose_language</string>
+
+    <string name="choose_email_client">Choose email client</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>

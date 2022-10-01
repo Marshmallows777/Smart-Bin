@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_text">"लेखा"</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="manage">"प्रबंधित"</string>
+    <string name="ward_prompt">"वार्ड चुनें"</string>
+    <string name="account_card_text">यहां अपने सभी खाते का विवरण ढूंढें।</string>
+    <string name="click_to_monitor_bins_in_the_allocated_wards">"आवंटित वार्ड में डिब्बे की निगरानी के लिए क्लिक करें।"</string>
+    <string name="install">"इंस्टॉल"</string>
+    <string name="install_and_activate_new_bins_in_the_allocated_wards">आवंटित वार्डों में नए डिब्बे स्थापित और सक्रिय करें।</string>
+    <string name="scan_qr_bt_text">लॉगआउट</string>
+</resources>

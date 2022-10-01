@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.captain_miao.optroundcardview.OptRoundCardView
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="48dp"
+    style="@style/OptRoundCardView.Light"
+    android:background="@android:color/white"
+    android:layout_marginRight="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:optRoundCardCornerRadius="16dp"
+    app:optRoundCardTopEdges="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="5dp"
+    android:layout_marginBottom="20dp"
+    android:foreground="?android:attr/selectableItemBackground">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#222a2c"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:alpha="0.98"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_bin"
+                />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Smart Dustbin Manager"
+                android:textColor="#bfFFFFFF"
+                android:textSize="18sp"/>
+
+        </LinearLayout>-->
+        <LinearLayout
+            android:paddingBottom="32dp"
+            android:paddingTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#222a2c"
+            android:alpha="0.97">
+            <TextView
+                android:id="@+id/user_first_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Welcome Divyanshu"
+                android:textColor="#99FFFFFF"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+           <!-- <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Divyanshu Agrawal"
+                android:textStyle="bold"
+                android:textColor="#9AFFFFFF"
+                android:textSize="16dp"
+                android:layout_marginTop="2dp"/>-->
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+</com.github.captain_miao.optroundcardview.OptRoundCardView>
+

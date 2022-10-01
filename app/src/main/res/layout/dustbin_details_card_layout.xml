@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.captain_miao.optroundcardview.OptRoundCardView
+    style="@style/OptRoundCardView.Light"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:optRoundCardCornerRadius="6dp"
+    app:optRoundCardLeftTopCorner="true"
+    app:optRoundCardRightTopCorner="true"
+    app:optRoundCardTopEdges="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:elevation="3dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+    <LinearLayout
+        android:padding="12dp"
+        android:id="@+id/dustbin_details_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:weightSum="6.5"
+        android:layout_height="wrap_content">
+
+        <!--<RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height=""></RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/dustbin_progressbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="34dp"
+            android:layout_height="dp"
+            android:progressDrawable="@drawable/progressbar_states" />-->
+
+        <ImageView
+            android:src="@drawable/ic_garbage_level"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_marginLeft="16dp"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/dustbin_level_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="75% Full"
+                />
+
+            <TextView
+                android:id="@+id/bin_tv"
+                android:layout_below="@+id/dustbin_level_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="14dp"
+                android:textColor="#808080"
+                android:text="BIN: 7418529632"
+                />
+
+
+            <TextView
+                android:id="@+id/last_updated_tv"
+                android:layout_below="@id/bin_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:textColor="#808080"
+                android:text="Last updated at 17/09/19 10:00 AM"
+                />
+
+
+
+        </RelativeLayout>
+
+        <!--<View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />-->
+
+        <ImageView
+            android:id="@+id/info_icon"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_info" />
+
+
+    </LinearLayout>
+
+</com.github.captain_miao.optroundcardview.OptRoundCardView>

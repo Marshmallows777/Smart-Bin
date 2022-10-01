@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.captain_miao.optroundcardview.OptRoundCardView
+        android:layout_marginTop="48dp"
+        style="@style/OptRoundCardView.Light"
+        android:background="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:optRoundCardCornerRadius="16dp"
+        app:optRoundCardLeftTopCorner="true"
+        app:optRoundCardRightTopCorner="true"
+        app:optRoundCardTopEdges="false"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:elevation="5dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true">
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/register_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:weightSum="7"
+        android:layout_height="wrap_content">
+
+       <ImageView
+            android:src="@drawable/ic_dustbin"
+           android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+           android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_marginLeft="16dp"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:text="@string/install"
+                />
+
+            <TextView
+                android:layout_below="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="14dp"
+                android:textColor="#808080"
+                android:text="@string/install_and_activate_new_bins_in_the_allocated_wards"
+                />
+
+        </RelativeLayout>
+
+        <!--<View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />-->
+
+       <ImageView
+            android:layout_gravity="center_vertical"
+            app:tint="#b3b3b3"
+           android:layout_weight="1"
+            android:src="@drawable/ic_navigate_next_black_24dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    </com.github.captain_miao.optroundcardview.OptRoundCardView>
